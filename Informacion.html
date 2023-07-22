@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFORMACIÓN</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="title">
+        <h1>¿Encontraste a éste perro?</h1>
+    </div>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="img1"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img2"></div>
+            </div>
+            <div class="swiper-slide">
+                <div class="img3"></div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+    <br>
+    <table>
+        <h2>INFORMACIÓN</h2>
+        <tr>
+            <td><strong>Nombre</strong></td>
+            <td>: Chiky</td>
+            <span>
+        </tr>
+        <tr>
+            <td><strong>Edad</strong></td>
+            <td>: 12 Años (11/11/2022)</td>
+            <span>
+        </tr>
+        <tr>
+            <td><strong>Hogar</strong></td>
+            <td>: Calle 35 N° 857</td>
+            <span>
+        </tr>
+        <tr>
+            <td><strong>Dueño/a 1</strong></td>
+            <td>: Alejandra Noemi Allais</td>
+            <span>
+        </tr>
+        <tr>
+            <td><strong>Dueño/a 2</strong></td>
+            <td>: Sergio Daniel Cardoso</td>
+            <span>
+        </tr>
+        <tr>
+            <td><strong>Teléfono 1</strong></td>
+            <td><a href="tel:2302592053">: 2302 15592053</a></td>
+        <tr>
+            <td><strong>Teléfono 2</strong></td>
+            <td><a href="tel:2302447477">: 2302 15447477</a></td>
+        </tr>
+        <tr>
+            <td><strong>Teléfono 3</strong></td>
+            <td><a href="tel:2302354543">: 2302 15354543</a></td>
+        </tr>
+        </tr>
+    </table>
+    <br>
+    <h2 id="ub">Llévame a ésta ubicación!</h2>
+    <br><a href="https://goo.gl/maps/SQdHMoDbEUdo2jR5A">Ver en Google Maps</a><br>
+    <div id="map"></div>
+
+    <footer>
+        <p>Ultima actualización 22/07/23</p>
+    </footer>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCw0R8c559GEReyaEVZzT57mk7z8nVj4Q8&callback=initMap&v=weekly"
+        defer></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
