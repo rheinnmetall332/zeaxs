@@ -9,7 +9,6 @@ function initMap() {
         map: map,
     });
 }
-
 window.initMap = initMap;
 
 const swiper = new Swiper('.swiper', {
